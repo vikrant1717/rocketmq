@@ -179,6 +179,7 @@
         <!-- Exclude all generated code -->
         <sonar.jacoco.itReportPath>${project.basedir}/../test/target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.exclusions>file:**/generated-sources/**,**/test/**</sonar.exclusions>
+        <sonar.organization>vikrant1717</sonar.organization>
     </properties>
 
     <modules>
